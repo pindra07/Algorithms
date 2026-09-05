@@ -1,1 +1,1 @@
-{"version":"7.0.2","root":["./src/algorithms/recursion.ts","./src/algorithms/search_algorithms/binary_search.ts"],"packageJsons":["./package.json"]}
+{"version":"7.0.2","root":["./src/index.ts","./src/algorithms/recursion.ts","./src/algorithms/search_algorithms/binary_search.ts","./src/ds/linked_list.ts"],"packageJsons":["./package.json"]}

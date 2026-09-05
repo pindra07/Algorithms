@@ -56,4 +56,3 @@ function recursiveBinarySearch(arr: number[], low: number, high: number, target:
   return -1 
 }
 
-export = { binarySearch, recursiveBinarySearch, linearSearch }

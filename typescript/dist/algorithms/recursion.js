@@ -1,10 +1,8 @@
-"use strict";
 /*   Definition
 A process (a function in our case) that calls itself
 - Base Case
 - the recursive function (on different set of data)
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 // Sum Range
 function sumRange(num) {
     if (num === 1)
@@ -13,7 +11,6 @@ function sumRange(num) {
 }
 console.log(sumRange(9));
 // factorial
-// (4) 4 * 3 * 2 * 1
 //iteratively factorial
 function i_factorial(num) {
     var start = 1;
@@ -31,5 +28,6 @@ function r_factorial(num) {
     return num * r_factorial(num - 1);
 }
 console.log("recursive factorial", r_factorial(5));
+export {};
 // Helper Method Recursion
 //# sourceMappingURL=recursion.js.map
